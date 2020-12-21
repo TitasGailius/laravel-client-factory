@@ -32,7 +32,7 @@ class Forge extends Client
      */
     public function configure($app)
     {
-        $this->baseUrl($app['config']['services.forge.base_uri']);;
+        $this->baseUrl($app['config']['services.forge.base_uri']);
     }
 }
 ```
