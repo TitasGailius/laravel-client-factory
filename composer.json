@@ -1,6 +1,6 @@
 {
     "name": "titasgailius/laravel-client-factory",
-    "description": "Create Http clients based on Laravel Http Client",
+    "description": "Create custom HTTP clients in Laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
