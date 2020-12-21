@@ -1,0 +1,30 @@
+{
+    "name": "titasgailius/laravel-client-factory",
+    "description": "Create Http clients based on Laravel Http Client",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Titas Gailius",
+            "email": "titas.gailius@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/http": "^8.19",
+        "guzzlehttp/guzzle": "^6.5.5|^7.0.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "TitasGailius\\LaravelClientFactory\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TitasGailius\\LaravelClientFactory\\Tests\\": "tests/"
+        }
+    }
+}
