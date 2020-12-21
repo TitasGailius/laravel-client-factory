@@ -2,7 +2,7 @@
 
 # Laravel Client Factory
 
-This package allows you to create custom http clients based on the Laravel HTTP client.
+This package allows you to create custom HTTP clients in Laravel.
 
 ## Installation
 
